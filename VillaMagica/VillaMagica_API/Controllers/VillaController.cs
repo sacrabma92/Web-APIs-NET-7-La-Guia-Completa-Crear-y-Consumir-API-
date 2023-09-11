@@ -1,6 +1,7 @@
 ﻿using Azure;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using VillaMagica_API.Datos;
 using VillaMagica_API.Modelos;
 using VillaMagica_API.Modelos.DTO;
@@ -153,7 +154,7 @@ namespace VillaMagica_API.Controllers
                 return BadRequest();
             }
 
-            var villa = _db.Villas.FirstOrDefault(x => x.Id == id);
+            var villa = _db.Villas.AsNoTracking().FirstOrDefault(x => x.Id == id);
 
             VillaDTO villaDTO = new()
             {

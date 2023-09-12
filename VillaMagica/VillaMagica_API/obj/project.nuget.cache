@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CT+PZw7GOBQWy4vp3gJM/2+Jr6dkwdtlS4uFBe2zjLWFX2arNbKzs2d29NNFXRgY0FWEYGKaLmxL4h+GAOgAeA==",
+  "dgSpecHash": "fIE5Irjevf9WPqHx50kjC6Sdilq62gxk3sZ+F0075K9shCxsMAE2ClVOlFXmJP3kjVX0A4xVqqCr3JGY2dMxiA==",
   "success": true,
   "projectFilePath": "D:\\PROYECTOS\\C#\\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\\VillaMagica\\VillaMagica_API\\VillaMagica_API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\karlo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using VillaMagica_API;
 using VillaMagica_API.Datos;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+// Configuracion de autommaper
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 
 var app = builder.Build();
 

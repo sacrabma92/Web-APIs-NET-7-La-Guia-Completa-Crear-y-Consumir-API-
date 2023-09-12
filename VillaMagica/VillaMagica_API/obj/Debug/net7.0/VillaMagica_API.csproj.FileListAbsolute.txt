@@ -8,6 +8,8 @@ D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagic
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Azure.Core.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Azure.Identity.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Humanizer.dll
+D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -29,6 +31,8 @@ D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagic
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -74,7 +78,5 @@ D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagic
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\obj\Debug\net7.0\VillaMagica_API.pdb
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\obj\Debug\net7.0\VillaMagica_API.genruntimeconfig.cache
 D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\obj\Debug\net7.0\ref\VillaMagica_API.dll
-D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
-D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Newtonsoft.Json.dll
-D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\AutoMapper.dll
+D:\PROYECTOS\C#\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\VillaMagica\VillaMagica_API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

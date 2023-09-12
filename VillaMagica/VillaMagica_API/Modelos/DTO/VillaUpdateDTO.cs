@@ -1,0 +1,20 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace VillaMagica_API.Modelos.DTO
+{
+    public class VillaUpdateDTO
+    {
+        [Required]
+        public int Id { get; set; }
+        [Required]
+        [MaxLength(100)]
+        public string Nombre { get; set; }
+        public string Detalle { get; set; }
+        [Required]
+        public double Tarifa { get; set; }
+        public int Ocupantes { get; set; }
+        public int MetrosCuadrados { get; set; }
+        public string ImagenUrl { get; set; }
+        public string Amenidad { get; set; }
+    }
+}

@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using VillaMagica_API;
 using VillaMagica_API.Datos;
+using VillaMagica_API.Repositorio;
+using VillaMagica_API.Repositorio.IRepositorio;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 
 // Configuracion de autommaper
 builder.Services.AddAutoMapper(typeof(MappingConfig));
+
+//Agregar el servicio
+builder.Services.AddScoped<IVillaRepositorio, VillaRepositorio>();
 
 var app = builder.Build();
 

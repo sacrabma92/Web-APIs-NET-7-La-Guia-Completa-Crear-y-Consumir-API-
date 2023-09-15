@@ -4,6 +4,11 @@ namespace VillaMagica_API.Modelos
 {
     public class APIResponse
     {
+        public APIResponse()
+        {
+            ErrorMessages = new List<string>();    
+        }
+
         public HttpStatusCode statusCode { get; set; }
         public bool IsExitoso { get; set; } = true;
         public List<string> ErrorMessages { get; set; }

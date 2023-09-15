@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fIE5Irjevf9WPqHx50kjC6Sdilq62gxk3sZ+F0075K9shCxsMAE2ClVOlFXmJP3kjVX0A4xVqqCr3JGY2dMxiA==",
+  "dgSpecHash": "aG1HjOrJXgFOwlJc5aDOx5cf8rbEmNiqLRaxHhje+wPey6+H91WfDndkkyWFhBqXVWEMd6Tli9+ghH4zJeG5gA==",
   "success": true,
   "projectFilePath": "D:\\PROYECTOS\\C#\\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\\VillaMagica\\VillaMagica_API\\VillaMagica_API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\karlo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.10\\microsoft.aspnetcore.jsonpatch.7.0.10.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.10.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",

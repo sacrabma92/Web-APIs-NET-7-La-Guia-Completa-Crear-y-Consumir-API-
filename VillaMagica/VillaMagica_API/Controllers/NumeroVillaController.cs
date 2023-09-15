@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Azure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Net;
 using VillaMagica_API.Datos;
 using VillaMagica_API.Modelos;
@@ -13,6 +15,7 @@ namespace VillaMagica_API.Controllers
 {
     [Route("api/numeroVillas")]
     [ApiController]
+    [Authorize(Roles = "admin")]
     public class NumeroVillaController : ControllerBase
     {
         private readonly ILogger<NumeroVillaController> _logger;

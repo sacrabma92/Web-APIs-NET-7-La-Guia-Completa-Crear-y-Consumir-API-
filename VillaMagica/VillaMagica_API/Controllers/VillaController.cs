@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Azure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace VillaMagica_API.Controllers
 {
     [Route("api/villas")]
     [ApiController]
+    [Authorize(Roles = "admin")]
     public class VillaController : ControllerBase
     {
         private readonly ILogger<VillaController> _logger;
@@ -29,7 +31,9 @@ namespace VillaMagica_API.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<APIResponse>> GetVillas()
         {

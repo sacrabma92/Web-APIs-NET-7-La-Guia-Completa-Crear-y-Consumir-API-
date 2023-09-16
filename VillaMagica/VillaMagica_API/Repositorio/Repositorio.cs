@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 using VillaMagica_API.Datos;
+using VillaMagica_API.Modelos.Especificaciones;
 using VillaMagica_API.Repositorio.IRepositorio;
 
 namespace VillaMagica_API.Repositorio
@@ -49,6 +50,16 @@ namespace VillaMagica_API.Repositorio
                 query = query.Where(filtro);
             }
             return await query.ToListAsync();
+        }
+
+        public PagedList<T> ObtenerTodosPaginado(Parametros parametros,Expression<Func<T, bool>>? filtro = null)
+        {
+            IQueryable<T> query = dbSet;
+            if (filtro != null)
+            {
+                query = query.Where(filtro);
+            }
+            return PagedList<T>.ToPlageList(query, parametros.PagesNumber, parametros.PageSize);
         }
 
         public async Task Remover(T entidad)

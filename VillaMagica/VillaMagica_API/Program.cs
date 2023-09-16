@@ -13,7 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers().AddNewtonsoftJson();
+builder.Services.AddControllers( options =>
+{
+    options.CacheProfiles.Add("Default30",
+        new CacheProfile()
+        {
+            Duration = 30
+        });
+}).AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 // Documentacion del Bearer token
@@ -56,6 +63,9 @@ builder.Services.AddSwaggerGen(options => {
         Description = "Tenemos 1 endpoint de ejemplo"
     });
 });
+
+// Activar Caching en la aplicacion
+builder.Services.AddResponseCaching();
 
 // Servicio de versionamiento, toca instalar paquetes Nuggets 
 // AspNetCore.Mvc.Versioning

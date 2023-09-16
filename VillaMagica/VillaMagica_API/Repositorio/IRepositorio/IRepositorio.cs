@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using VillaMagica_API.Modelos.Especificaciones;
 
 namespace VillaMagica_API.Repositorio.IRepositorio
 {
@@ -6,6 +7,7 @@ namespace VillaMagica_API.Repositorio.IRepositorio
     {
         Task Crear(T entidad);
         Task<List<T>> ObtenerTodos(Expression<Func<T,bool>>? filtro = null);
+        PagedList<T> ObtenerTodosPaginado(Parametros parametros, Expression<Func<T,bool>>? filtro = null);
         Task<T> Obtener(Expression<Func<T, bool>>? filtro = null, bool tracked=true );
         Task Remover(T entidad);
         Task Grabar();

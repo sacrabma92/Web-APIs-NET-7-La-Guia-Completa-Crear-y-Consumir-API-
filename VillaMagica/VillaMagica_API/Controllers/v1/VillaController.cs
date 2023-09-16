@@ -8,6 +8,7 @@ using System.Net;
 using VillaMagica_API.Datos;
 using VillaMagica_API.Modelos;
 using VillaMagica_API.Modelos.DTO;
+using VillaMagica_API.Modelos.Especificaciones;
 using VillaMagica_API.Repositorio.IRepositorio;
 
 namespace VillaMagica_API.Controllers.v1
@@ -32,6 +33,7 @@ namespace VillaMagica_API.Controllers.v1
         }
 
         [HttpGet]
+        [ResponseCache(CacheProfileName = "Default30")]
         [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -49,12 +51,35 @@ namespace VillaMagica_API.Controllers.v1
             }
             catch (Exception ex)
             {
-
                 _response.IsExitoso = false;
                 _response.ErrorMessages = new List<string>() { ex.ToString() };
             }
             return _response;
 
+        }
+
+        [HttpGet("VillasPaginado")]
+        [AllowAnonymous]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<APIResponse> GetVillasPaginado([FromQuery] Parametros parametros)
+        {
+            try
+            {
+                var villaList = _villaRepo.ObtenerTodosPaginado(parametros);
+                _response.Resultado = _mapper.Map<IEnumerable<VillaDTO>>(villaList);
+                _response.statusCode = HttpStatusCode.OK;
+                _response.TotalPaginas = villaList.MetaData.TotalPages;
+
+                return Ok(_response);
+            }
+            catch (Exception ex)
+            {
+                _response.IsExitoso = false;
+                _response.ErrorMessages = new List<string>() { ex.ToString() };
+            }
+            return _response;
         }
 
         [HttpGet("{id:int}", Name = "GetVilla")]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aG1HjOrJXgFOwlJc5aDOx5cf8rbEmNiqLRaxHhje+wPey6+H91WfDndkkyWFhBqXVWEMd6Tli9+ghH4zJeG5gA==",
+  "dgSpecHash": "v+HK/qupf63OaQ8Tf9GPm/M7s1UwaILvG6U+194uIajSU3DRN/2jDDzcDELLMzpF6EQzJXg60gE5hwktmmO4mQ==",
   "success": true,
   "projectFilePath": "D:\\PROYECTOS\\C#\\Web-APIs-NET-7-La-Guia-Completa-Crear-y-Consumir-API-\\VillaMagica\\VillaMagica_API\\VillaMagica_API.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.10\\microsoft.aspnetcore.jsonpatch.7.0.10.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.10.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\karlo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

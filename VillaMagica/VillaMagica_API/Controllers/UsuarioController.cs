@@ -7,8 +7,10 @@ using VillaMagica_API.Repositorio.IRepositorio;
 
 namespace VillaMagica_API.Controllers
 {
-    [Route("api/usuario")]
+    [Route("api/v{version:apiVersion}/usuario")]
     [ApiController]
+    // Este campo dice que puede pertenecer a cualquier version
+    [ApiVersionNeutral]
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioRepositorio _usuarioRepo;
@@ -52,7 +54,7 @@ namespace VillaMagica_API.Controllers
             }
             var usuario = await _usuarioRepo.Registrar(modelo);
 
-            if(usuario == null)
+            if (usuario == null)
             {
                 _apiResponse.statusCode = HttpStatusCode.BadRequest;
                 _apiResponse.IsExitoso = false;

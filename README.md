@@ -21,3 +21,8 @@ El login tiene Seguridad con JWT
 
 La API cuenta con versionamiento 
 ![App Screenshot](https://i.postimg.cc/YqHqr20D/4.png)
+
+
+## Authors
+
+- [@CarlosRamirez](https://github.com/sacrabma92)
